@@ -1,0 +1,22 @@
+/* GENERAL */
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Style */
+
+
+main {
+    background-image: url(../img/un-treno-rosso-e-bianco-che-viaggia-lungo-i-binari-del-treno-treno-suburbano-ad-alta-velocita-al-tramonto_331695-11893.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.h1_container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
