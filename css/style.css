@@ -14,9 +14,14 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 .h1_container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+}
+
+.card_size {
+    height: 200px;
 }

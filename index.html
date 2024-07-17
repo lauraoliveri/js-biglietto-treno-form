@@ -19,18 +19,19 @@
 <body>
 
 
-    <main class="container-fluid">
+    <main class="container-fluid pb-4">
 
         <div class="h1_container">
-            <h1 class="text-uppercase fw-bold text-white">
+            <h1 class="text-uppercase fw-bold text-white text-center">
                 Calcola il prezzo del tuo biglietto
             </h1>
         </div>
         <section>
-            <div class="card mx-auto">
+            <!-- Card Input -->
+            <div class="card mx-auto card_size">
                 <div class="card-body">
                     <div class="container text-center">
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center pt-3">
                             <div class="col">
                                 <div class="mb-3">
                                     <label for="nameandsurname" class="form-label">Nome e Cognome</label>
@@ -39,8 +40,8 @@
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="Km" class="form-label">Km da percorrere</label>
-                                    <input type="text" class="form-control" id="Km">
+                                    <label for="km" class="form-label">Km da percorrere</label>
+                                    <input type="text" class="form-control" id="km">
                                 </div>
                             </div>
                             <div class="col">
@@ -54,17 +55,61 @@
                             <div class="col">
                                 <div class="d-flex justify-content-center">
                                     <div class="pe-4">
-                                        <button type="button" class="btn btn-outline-primary">Genera</button>
+                                        <button type="button" class="btn btn-secondary" id="generatebtn">Genera</button>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-outline-primary">Annulla</button>
+                                        <button type="button" class="btn btn-secondary">Annulla</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                       </div>
                 </div>
-              </div>
+            </div>
+            
+            <!-- Card Ticket -->
+            <div class="card mx-auto mt-4 pb-4">
+                <div class="card-body card_size">
+                    <h3 class="text-uppercase fw-bold">
+                        DETTAGLI PASSEGGERO
+                    </h3>
+                    <div class="row"> 
+                        <div class="col-4">
+                            <div>
+                                <h5 class="fw-bold">
+                                    Nome Passeggero
+                                </h5>
+                            </div>
+                            <div id="usernamee">
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex justify-content-around">
+                                <div>
+                                    <div class="pb-4 fw-bold">
+                                        Offerta
+                                    </div>
+                                    <div class="pb-2" id="tickettype">
+                                        
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="pb-4 fw-bold">
+                                        Costo Biglietto
+                                    </div>
+                                    <div class="pb-2" id="ticketfinalprice">
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
     </main>
 
